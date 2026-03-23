@@ -1,0 +1,15 @@
+# Perspectives {#chapters_4 .backgroundTitre_violet}
+
+## Les perspectives {#section_4_1 .backgroundStandard_violet}
+
+- Amélioration de la normalisation par Cobra
+- Traitement par Aspic de nouvelles nomenclatures : 
+  - Diplômes / Niveaux
+  - communes de naissance
+  - Points de vente (enquête Budget des Familles)
+- Utilisation de modèles plus performants : 
+  - TorchTextClassifiers (Insee - SSPLab)
+  - BERT
+- Arbitrage entre performance / ressources
+- Mise en place d’une authentification OAuth
+- Ouverture partielle du service sur Kube DMZ pour le SSP (Authentification par jeton)

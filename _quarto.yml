@@ -1,0 +1,78 @@
+project:
+  title: "COPIL VIPERE - 1ère réunion"
+  output-dir: _output
+  resources:
+    - "_extensions/"
+    - "css/"
+    - "img/"
+    - "js/"
+    - "modulesCompl/"
+    - "*.html"
+    - "*_files/"
+  render:
+    - "*.qmd"
+    
+format:
+  insee-clair-revealjs: default
+  odt: 
+    prefer-html: true
+    
+header-includes: |
+  <link rel="icon" type="image/png" sizes="32x32" href="_extensions/insee-clair/ressources/insee_embleme_couleurs_RVB.svg">
+include-after-body: ["modulesCompl/footer.html"]
+logo:  img/licences/cc/png/by-sa.png #uncomment here to add license logo for instance
+    
+embed-resources: true
+df-print: paged
+lang: "fr"
+
+slide-number: c/t
+progress: true
+controls-layout: bottom-right
+controls-tutorial: true
+controls-back-arrows: faded
+background-transition: fade
+navigation-mode: vertical # linear/grid or vertical
+history: true
+transition-speed: slow
+number-sections: true
+number-depth: 2
+from: markdown+emoji
+
+link-external-newwindow: true
+# link-external-icon: true
+# footnotes-hover: true
+# reference-location: document #block / section / margin / document
+
+code-fold: true
+code-summary: "Code"
+code-copy: true
+#highlight-style: atom-one # mettre en commentaire si pas de code
+
+menu: {
+  side: 'left',
+  width: 'wide',
+  markers: true,
+  transitions: true,
+  custom: [
+      {
+        title: 'Plugins',
+        icon: '<i class="fa-solid fa-circle-info"></i>',
+        src: 'modulesCompl/customMenu.html'
+      }
+    ]
+}
+  
+width: 1920
+height: 1080
+
+theme: css/Insee_Commun.scss
+css: [css/default.css, css/stylePerso.css]
+
+revealjs-plugins:
+  - pointer
+  - confetti
+  - verticator
+  - multimodal
+filters:
+  - roughnotation

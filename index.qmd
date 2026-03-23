@@ -1,0 +1,64 @@
+---
+title: "Mise en place d'un nouveau service de codification à l'Insee"
+subtitle: "Journée Grandes Enquêtes - Mars 2026"
+# institute: INSEE
+# author: Vous
+date: 2026-04-25
+date-format: "DD/MM/YYYY"
+description: |
+  Slides pour la presentation a Progedo
+
+slide-tone: true # for blind readers
+chalkboard: false # press the B key to toggle chalkboard
+jump-to-slide: true #press "g" to jump and the number of slide
+mouse-wheel: false
+transition: slide
+fig-cap-location: bottom
+
+embed-resources: false
+
+custom-toc: true
+
+# multiplex: true
+execute:
+  echo: false
+  warning: false
+  cache: false
+editor:
+  render-on-save: true
+
+params:
+  annee: "2026"
+  codeDepartement: "92"
+  codeRegion: "11"
+  typeEquipement: "G103"
+---
+
+<!-- Ajout des parties du support -->
+
+{{< include 01_contexte.qmd >}}
+
+{{< include 02_outils.qmd >}}
+
+{{< include 03_fonctionnement_service.qmd >}}
+
+{{< include 04_resultats.qmd >}}
+
+{{< include 05_perspectives.qmd >}}
+
+## {#pageDeFin data-menu-title="Page finale" .unnumbered .backgroundPageFinale}
+
+:::: {.columns .coordonneesFinales}
+
+::: {.column .coordonnees width=50%}
+- Yves Coltier
+- Responsable de la méthodologie <br> du codage automatique
+- Division Recueil et traitement <br> de l’information
+- 01 87 69 55 53
+- yves.coltier@insee.fr
+:::
+
+::: {.column .droite width=40%}
+:::
+
+::::

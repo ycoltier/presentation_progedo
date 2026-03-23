@@ -1,0 +1,10 @@
+# Le fonctionnement du service {#chapters_2 .backgroundTitre_jaune}
+
+## Circuit de codification {#section_2_1 .backgroundStandard_jaune}
+
+:::{.centerImage}
+<img src="img/presentation/sugg_cobra_aspic.png" width="100%">
+:::
+
+## Démonstration {#section_2_2 .backgroundStandard_jaune}
+
