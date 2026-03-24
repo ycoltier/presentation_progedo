@@ -1,5 +1,5 @@
 project:
-  title: "COPIL VIPERE - 1ère réunion"
+  title: "Mise en place d'un nouveau service de codification à l'Insee"
   output-dir: _output
   resources:
     - "_extensions/"

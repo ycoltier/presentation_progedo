@@ -1,0 +1,58 @@
+name: Quarto Publish
+
+on:
+  push:
+    branches: 
+      - "main"
+  workflow_dispatch:
+
+env:
+  # Variables équivalentes à _variables.yml
+  COULEURFORMAT: "clair"  # valeur possible : clair ou sombre
+  forgeInterne: "github"
+  forgeExterne: "gitlab"
+  version: "2.1"
+  organisation: "INSEE"
+  supportTechnique: "yves.coltier@insee.fr"
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.5.1'
+
+      - name: Install R packages
+        run: |
+          Rscript -e "install.packages(c('yaml', 'jsonlite', 'htmltools', 'digest', 'knitr', 'rmarkdown', 'dplyr', 'DT', 'plotly', 'leaflet', 'RColorBrewer', 'sf', 'gapminder'))"
+
+      - name: Display configuration
+        run: |
+          echo "Couleur du format choisie :"
+          echo ${{ env.COULEURFORMAT }}
+          echo "Deploy presentation to GitHub Pages"
+
+      - name: Render Quarto document
+        run: |
+          quarto render index.qmd --to insee-${{ env.COULEURFORMAT }}-revealjs
+
+      - name: Prepare output directory
+        run: |
+          mkdir -p public
+          mv _output/* public/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
