@@ -2,8 +2,9 @@
 
 ## Enquête TIC {#section_3_1 .backgroundStandard_bleu}
 
-Enquête TIC auprès des ménages :
-- Objectif : collecter des informations décrivant l'équipement des ménages et leurs usages dans le domaine des nouvelles technologies
+Enquête sur l’usage des Technologies de l'Information et de la Communication auprès des ménages :
+
+- Objectif : collecter des informations décrivant l'équipement des ménages et leurs usages dans le domaine des nouvelles technologies\
 - Taux de recours à la liste des libellés en 2025 : 61 %
 
 | Recours à la liste | Codification <br> 4 positions | Codification <br> < 4 positions | Échec de la codification |
@@ -16,13 +17,13 @@ Enquête TIC auprès des ménages :
 _Source : Enquête TIC 2025, hors libellés vides de sens_
 
 
-## Titre transparent {#section_3_2 .backgroundStandard .titreTransparent data-menu-title="Slide sans titre ni numérotation"}
+## Codification par Aspic {#section_3_2 .backgroundStandard_bleu}
 
 :::{.centerImage}
 <img src="img/presentation/TIC_aspic.png" width="80%">
 :::
 
-## Titre transparent {#section_3_3 .backgroundStandard .titreTransparent data-menu-title="Slide sans titre ni numérotation"}
+## Codification par Cobra et Aspic {#section_3_3 .backgroundStandard_bleu}
 
 :::{.centerImage}
 <img src="img/presentation/TIC_ensemble.png" width="80%">
