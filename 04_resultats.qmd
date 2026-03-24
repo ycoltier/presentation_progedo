@@ -19,11 +19,11 @@ _Source : Enquête TIC 2025, hors libellés vides de sens_
 ## Titre transparent {#section_3_2 .backgroundStandard .titreTransparent data-menu-title="Slide sans titre ni numérotation"}
 
 :::{.centerImage}
-<img src="img/presentation/TIC_aspic.png" width="90%">
+<img src="img/presentation/TIC_aspic.png" width="80%">
 :::
 
 ## Titre transparent {#section_3_3 .backgroundStandard .titreTransparent data-menu-title="Slide sans titre ni numérotation"}
 
 :::{.centerImage}
-<img src="img/presentation/TIC_ensemble.png" width="90%">
+<img src="img/presentation/TIC_ensemble.png" width="80%">
 :::

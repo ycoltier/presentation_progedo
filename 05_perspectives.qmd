@@ -3,13 +3,16 @@
 ## Les perspectives {#section_4_1 .backgroundStandard_violet}
 
 - Amélioration de la normalisation par Cobra
-- Traitement par Aspic de nouvelles nomenclatures : 
+- Déploiement de nouveaux modèles avec Aspic : 
   - Diplômes / Niveaux
   - communes de naissance
-  - Points de vente (enquête Budget des Familles)
 - Utilisation de modèles plus performants : 
   - TorchTextClassifiers (Insee - SSPLab)
+    - Modèle PyTorch
+    - gestion des variables catégorielles
+    - choix de l'algorithme de tokenization
+    - explicabilité
+    - open source : [lien vers github](https://github.com/InseeFrLab/torchTextClassifiers)
   - BERT
 - Arbitrage entre performance / ressources
-- Mise en place d’une authentification OAuth
 - Ouverture partielle du service sur Kube DMZ pour le SSP (Authentification par jeton)

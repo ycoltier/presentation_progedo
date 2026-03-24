@@ -13,7 +13,7 @@
 ## Titre transparent {#section_1_2 .backgroundStandard .titreTransparent data-menu-title="Slide sans titre ni numérotation"}
 
 :::{.centerImage}
-<img src="img/presentation/sugg_1.png" width="60%">
+<img src="img/presentation/sugg_1.png" width="40%">
 :::
 
 ## Cobra {#section_1_3 .backgroundStandard_violet .scrollable}

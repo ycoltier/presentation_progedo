@@ -18,7 +18,7 @@
 ## Titre transparent {#section_0_2 .backgroundStandard .titreTransparent .rehausserContenuSansTitre data-menu-title="Slide sans titre ni numérotation"}
 
 :::{.centerImage}
-<img src="img/presentation/exemple_sicore.png" width="60%">
+<img src="img/presentation/exemple_sicore.png" width="50%">
 :::
 
 ## Sicore {#section_0_3 .backgroundStandard_bleu}

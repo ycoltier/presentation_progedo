@@ -8,7 +8,7 @@ date-format: "DD/MM/YYYY"
 description: |
   Slides pour la presentation a Progedo
 
-slide-tone: true # for blind readers
+slide-tone: false # for blind readers
 chalkboard: false # press the B key to toggle chalkboard
 jump-to-slide: true #press "g" to jump and the number of slide
 mouse-wheel: false
