@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr"><head>
-<script src="index_files/libs/tone/tone.js"></script>
 <script src="index_files/libs/clipboard/clipboard.min.js"></script>
 <script src="index_files/libs/quarto-html/tabby.min.js"></script>
 <script src="index_files/libs/quarto-html/popper.min.js"></script>
@@ -34,7 +33,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-7171c69a40af75209c00551e483dfdf0.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-c81e65ec4370a7e6179d49342f636d46.css">
   <link rel="stylesheet" href="css/insee_clair.css">
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/stylePerso.css">
@@ -222,7 +221,7 @@
 <section id="section_0_2" class="slide level2 backgroundStandard titreTransparent rehausserContenuSansTitre" data-menu-title="Slide sans titre ni numérotation" data-number="1.2">
 <h2><span class="header-section-number">1.2</span> Titre transparent</h2>
 <div class="centerImage">
-<p><img src="img/presentation/exemple_sicore.png" width="60%"></p>
+<p><img src="img/presentation/exemple_sicore.png" width="50%"></p>
 </div>
 </section>
 <section id="section_0_3" class="slide level2 backgroundStandard_bleu" data-number="1.3">
@@ -259,7 +258,7 @@
 <section id="section_1_2" class="slide level2 backgroundStandard titreTransparent" data-menu-title="Slide sans titre ni numérotation" data-number="2.2">
 <h2><span class="header-section-number">2.2</span> Titre transparent</h2>
 <div class="centerImage">
-<p><img src="img/presentation/sugg_1.png" width="60%"></p>
+<p><img src="img/presentation/sugg_1.png" width="40%"></p>
 </div>
 </section>
 <section id="section_1_3" class="slide level2 backgroundStandard_violet scrollable" data-number="2.3">
@@ -427,13 +426,13 @@
 <section id="section_3_2" class="slide level2 backgroundStandard titreTransparent" data-menu-title="Slide sans titre ni numérotation" data-number="4.2">
 <h2><span class="header-section-number">4.2</span> Titre transparent</h2>
 <div class="centerImage">
-<p><img src="img/presentation/TIC_aspic.png" width="90%"></p>
+<p><img src="img/presentation/TIC_aspic.png" width="80%"></p>
 </div>
 </section>
 <section id="section_3_3" class="slide level2 backgroundStandard titreTransparent" data-menu-title="Slide sans titre ni numérotation" data-number="4.3">
 <h2><span class="header-section-number">4.3</span> Titre transparent</h2>
 <div class="centerImage">
-<p><img src="img/presentation/TIC_ensemble.png" width="90%"></p>
+<p><img src="img/presentation/TIC_ensemble.png" width="80%"></p>
 </div>
 </section></section>
 <section>
@@ -445,19 +444,24 @@
 <h2><span class="header-section-number">5.1</span> Les perspectives</h2>
 <ul>
 <li>Amélioration de la normalisation par Cobra</li>
-<li>Traitement par Aspic de nouvelles nomenclatures :
+<li>Déploiement de nouveaux modèles avec Aspic :
 <ul>
 <li>Diplômes / Niveaux</li>
 <li>communes de naissance</li>
-<li>Points de vente (enquête Budget des Familles)</li>
 </ul></li>
 <li>Utilisation de modèles plus performants :
 <ul>
-<li>TorchTextClassifiers (Insee - SSPLab)</li>
+<li>TorchTextClassifiers (Insee - SSPLab)
+<ul>
+<li>Modèle PyTorch</li>
+<li>gestion des variables catégorielles</li>
+<li>choix de l’algorithme de tokenization</li>
+<li>explicabilité</li>
+<li>open source : <a href="https://github.com/InseeFrLab/torchTextClassifiers">lien vers github</a></li>
+</ul></li>
 <li>BERT</li>
 </ul></li>
 <li>Arbitrage entre performance / ressources</li>
-<li>Mise en place d’une authentification OAuth</li>
 <li>Ouverture partielle du service sur Kube DMZ pour le SSP (Authentification par jeton)</li>
 </ul>
 </section>
@@ -492,7 +496,6 @@
   <script src="index_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="index_files/libs/revealjs/plugin/quarto-tone/tone.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-confetti/confetti.js"></script>
   <script src="index_files/libs/revealjs/plugin/verticator/verticator.js"></script>
@@ -692,7 +695,7 @@
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoTone, RevealPointer, RevealConfetti, Verticator, Multimodal, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealPointer, RevealConfetti, Verticator, Multimodal, QuartoSupport,
 
           RevealMath,
           RevealNotes,
