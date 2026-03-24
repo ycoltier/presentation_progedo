@@ -34,7 +34,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          Rscript -e "install.packages(c('yaml', 'jsonlite', 'htmltools', 'digest', 'knitr', 'rmarkdown', 'dplyr', 'DT', 'plotly', 'leaflet', 'RColorBrewer', 'sf', 'gapminder'))"
+          Rscript -e "install.packages(c('yaml', 'jsonlite', 'htmltools', 'knitr', 'rmarkdown'))"
 
       - name: Display configuration
         run: |
